@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    background-image: linear-gradient(90deg, #4824b3 5%, #f783ac 95%);
+}
+
+.calculadora{
+    
+    width: 30%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 2rem ;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 100%);
+
+}
+
+.calculadora h1{
+    font-size: 4rem;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+.calculadora p{
+    font-size: 4rem;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.calculadora .caja{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.calculadora .caja input{
+    width: 15rem;
+    height: 3rem;
+    /* margin-left: 4rem; */
+    background-color: rgba(0, 0, 0, 0.219);
+    color: rgb(241, 241, 241);
+    border-radius: 1rem;
+
+}
+
+.calculadora .button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    padding:0 4rem ;
+}
+
+
+.calculadora .button button{
+   
+    width: 8rem;
+    font-size: 3rem;
+
+    background-color: rgba(0, 0, 0, 0.219);
+    color: rgb(241, 241, 241);
+    border-radius: 1rem;
+}
+
